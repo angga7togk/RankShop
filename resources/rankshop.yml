@@ -1,0 +1,34 @@
+# RankShop
+
+# use § for change text collors
+# use \n for make new line
+# use {rank} get your rank
+# use {money} get your money
+# use {player} get your name
+
+Title: "§l7TogkRankShop"
+Content: "§eHi, §a{player}\n\n§gYour Info:\n§6>> §eYour Money, §a{money}\n§6>> §eYour Ranks, §a{rank}"
+
+1:
+  RankShop:
+    Rank: "VIP"
+    Price: 50000
+  Button:
+    Name: "§l§bVIP"
+    SubName: "Price 50k"
+
+2:
+  RankShop:
+    Rank: "MVP"
+    Price: 100000
+  Button:
+    Name: "§l§cMVP"
+	SubName: "Price 100k"
+
+##### MESSAGE #####
+
+Message:
+  Succes: "Succesfully buy a ranks"
+  Failed: "Your money is not enough"
+  Exit: "Thanks for using RankShop"
+

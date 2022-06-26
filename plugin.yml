@@ -1,0 +1,16 @@
+name: RankShop
+main: Angga7Togk\RankShop\Main
+version: 1.0
+api: 4.0.0
+author: Angga7Togk
+description: "RankShop"
+
+commands:
+  rankshop:
+    description: "Open RankShop"
+    permission: rankshop.cmd
+
+permissions:
+  rankshop.cmd:
+    description: "rankshop Permission"
+    default: true
