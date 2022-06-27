@@ -15,7 +15,6 @@ Content: "§eHi, §a{player}\n\n§gYour Info:\n§6>> §eYour Money, §a{money}\n
     Price: 50000
   Button:
     Name: "§l§bVIP\n§rPrice : 50.000"
-
 2:
   RankShop:
     Rank: "MVP"
