@@ -14,16 +14,14 @@ Content: "§eHi, §a{player}\n\n§gYour Info:\n§6>> §eYour Money, §a{money}\n
     Rank: "VIP"
     Price: 50000
   Button:
-    Name: "§l§bVIP"
-    SubName: "Price 50k"
+    Name: "§l§bVIP\n§rPrice : 50.000"
 
 2:
   RankShop:
     Rank: "MVP"
     Price: 100000
   Button:
-    Name: "§l§cMVP"
-	SubName: "Price 100k"
+    Name: "§l§cMVP\n§rPrice : 100.000"
 
 ##### MESSAGE #####
 
