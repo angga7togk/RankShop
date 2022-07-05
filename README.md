@@ -7,5 +7,7 @@ This plugin is useful for selling rank
 |`/rankshop`|Open RankShop Menu|
 
 # Deffends
+```
 EconomyAPI
 PurePerms
+```
