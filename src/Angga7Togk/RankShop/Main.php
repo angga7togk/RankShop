@@ -18,6 +18,9 @@ use onebone\economyapi\EconomyAPI;
 use Angga7Togk\RankShop\FormAPI\SimpleForm;
 
 class Main extends PluginBase implements Listener{
+
+    private $config;
+    private $eco;
     
     public function onEnable() : void
     {
