@@ -65,9 +65,9 @@ class Main extends PluginBase implements Listener{
 		$form->setContent($content);
 		$form->addButton("§l§cExit\n§rTap To Exit", 0, "textures/ui/cancel");
 		for($i = 1;$i <= 50;$i++){
-          if($this->config->exists($i)){
-              $form->addButton($this->config->get($i)["Button"]["Name"], 0, "textures/ui/permissions_member_star");
-            }
+          if ($this->config->exists((string)$i)) {
+    $form->addButton($this->config->get((string)$i)["Button"]["Name"], 0, "textures/ui/permissions_member_star");
+}
         }
         $form->sendToPlayer($player);
         return $form;
